@@ -1,72 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Social Media Template</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!--header with logo, name link, home link, group icon, message icon, notification icon, lock icon with dropdown, and searchbox
+    with magnifying glass icon, input field, x icon-->
     <header>
-        <nav>
-            <div>
-                Logo
-            </div>
-
-            <div>
-                <ul>
-                    <li>
-                        <a href="zack.html">Zack</a>
-                    </li>
-                    <li>
-                        <a href="zack.html">Home</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <ul>
-                    <li>
-                        <a href="zack.html">group icon</a>
-                    </li>
-                    <li>
-                        <a href="zack.html">message icon</a>
-                    </li>
-                    <li>
-                        <a href="zack.html">bell icon</a>
-                    </li>
-                </ul>
-                <div>
-                    Lock
-                </div>
-            </div>
-
-            <div>
-                <ul>
-                    <li>
-                        search icon
-                    </li>
-                    <li>
-                        <input type="text">
-                    </li>
-                    <li>
-                        x icon
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <!-- logo -->
+      <div class="logo-area shapeup">
+        <a href="index.html">Logo</a>
+      </div>
+      <!-- menu -->
+      <div class="menu shapeup">
+        <ul>
+          <li>
+            <a href="zack.html">Zack</a>
+          </li>
+          <li>
+            <a href="zack.html">Home</a>
+          </li>
+        </ul>
+      </div>
+      <!-- icon links -->
+      <div class="icon-links shapeup">
+        <ul class="quick-options shapeup">
+          <li>
+            <a href="zack.html"
+              ><i class="fa fa-users " aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="zack.html"
+              ><i class="fa fa-comments " aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="zack.html"
+              ><i class="fa fa-bell " aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- lock -->
+        <div class="privacy shapeup ">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- search area -->
+      <div class="search-area shapeup">
+        <ul>
+          <li>
+            <i class="fa fa-search " aria-hidden="true"></i>
+          </li>
+          <li>
+            <input type="text" placeholder="Search" />
+          </li>
+          <li>
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </div>
     </header>
-
-    <section>
-
+    <!-- image, full name, update info button, view activity button, background image -->
+    <section id="top-area">
+      <div class="profile-info">
+        <div class="user-image">
+          <img
+            src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=73a9df4b7bd1b330db1e903e08575ec1"
+            alt=""
+          />
+        </div>
+        <div class="user-details">
+          <h3>Zack Germaine Ryder</h3>
+          <a href="">Update Info</a>
+          <a href="">View Activity</a>
+        </div>
+      </div>
     </section>
-
-    <main>
-
+    <!-- on left - intro section, photos section, friends section on right- nav bar with timeline ,about, friends, photos, and 3 dots, friend post, ad section  -->
+    <main id="content-area">
+      <div class="side-column">
+        <div class="widget-box intro">
+          <div class="head">
+            <div style="display: inline-block" class="widget-icon-container">
+            <div class="widget-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+          </div>
+          <div style="display: inline-block" class="widget-title">Intro</div>
+          </div>
+          <div class="body">
+            <h6>Pro Skater</h6>
+            <p>Lives in Los Angeles, California 90025-4718</p>
+            <p>From United States</p>
+            <a href="#">Update Info</a>
+          </div>
+        </div>
+        
+        <div class="widget-box photos">
+            <div class="head">
+                <div style="display: inline-block" class="widget-icon-container">
+                <div class="widget-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+              </div>
+              <div style="display: inline-block" class="widget-title">Photos</div>
+              </div>
+            <div class="body">
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/japan-image.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+            </div>
+        </div>
+        <div class="widget-box friends">
+            <div class="head">
+                <div style="display: inline-block" class="widget-icon-container">
+                <div class="widget-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+              </div>
+              <div style="display: inline-block" class="widget-title">Friends</div>
+              </div>
+              
+            <div class="body">
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                <div style="
+                float: left;
+                width: 33.3%;
+                height: 110px;
+                display: inline-block; background: url(img/anime-girl.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;"></div>
+                
+              </div>
+        </div>
+      </div>  
+      <div class="main-area">
+          <div class="widget-box submenu">
+            <ul>
+              <li><i class="fa fa-calendar" aria-hidden="true"></i>              </li>
+              <li><i class="fa fa-info-circle" aria-hidden="true"></i>              </li>
+              <li><i class="fa fa-address-book" aria-hidden="true"></i></li>
+              <li><i class="fa fa-camera" aria-hidden="true"></i></li>
+              <li><i class="fa fa-ellipsis-v" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+            <div class="widget-box post">
+                <div class="head">
+                  <div class="widget-icon">img</div>
+                  <div class="widget-title">title</div>
+                </div>
+                <div class="body">
+                  <h6></h6>
+                  <p></p>
+                  <p></p>
+                  <a href="#">Update Info</a>
+                </div>
+              </div>
+      </div>
     </main>
-
-</body>
-
+  </body>
 </html>
