@@ -111,7 +111,28 @@ header .search-area ul li {
     background: white;
 }
 
+/* #top-area {
+    position: relative;
+    z-index: 0;
+    background-color: #00CCFF;
+    height: 400px;
+    width: 650px;
+}
+
+
+
+.main-area {
+    position: absolute;
+    z-index: 1;
+    background-color: #6F0;
+    height: 250px;
+    width: 350px;
+    top: 40px;
+    left: 40px;
+} */
+
 /* TOP SECTION*/
+
 
 #top-area {
     padding: 200px 15px 90px 15px;
@@ -183,8 +204,20 @@ header .search-area ul li {
     max-width: 380px;
 }
 
+#content-area .side-column .widget-box.friends .body div img {
+    float: left;
+    width: 33.3%;
+    height: 110px;
+    display: inline-block;
+    background: url(https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #content-area .widget-box {
-    padding: 15px;
+    padding: 15px 4px 4px 4px;
     background: #fff;
     margin: 0 0 15px 0;
     border-radius: 3px;
@@ -203,9 +236,9 @@ header .search-area ul li {
     padding: 20px 0;
 }
 
-/* #content-area .widget-box .head .widget-icon-container {
+#content-area .widget-box .head .widget-icon-container {
     display: inline-block;
-} */
+}
 
 #content-area .widget-box .head .widget-title {
     display: inline-block;
@@ -227,14 +260,20 @@ header .search-area ul li {
     font-size: 22px;
 }
 
+#content-area .widget-box .head .chevron .fa {
+    float: right;
+    display: inline;
+    margin-left: 190px;
+}
+
 #content-area .main-area {
     float: left;
     width: 55%;
     margin: 0 2.5%;
 }
 
-#content-area .main-area .widget-box .submenu {
-    padding: 0;
+#content-area .main-area .widget-box.submenu {
+    padding: 20px 0 0 0;
     margin: 0;
     margin: 0 0 20px 0;
 }
@@ -276,10 +315,12 @@ header .search-area ul li {
 
 #content-area .main-area .widget-box.post {
     overflow: auto;
+    width: 100%;
+    padding: 15px 0 20px 0;
 }
 
 #content-area .main-area .widget-box.post .head {
-    width:
+    width: 100%
 }
 
 .user-image-container {
@@ -330,8 +371,8 @@ header .search-area ul li {
 
 #content-area .main-area .widget-box.post .body .post-icons {
     width: 100%;
-    padding: 15px 0;
-    color: #e0e0e0;
+    /* padding: 15px 0;
+    color: #e0e0e0; */
 }
 
 #content-area .main-area .widget-box.post .body .post-icons .fa {
@@ -343,28 +384,17 @@ header .search-area ul li {
     margin-right: 15px;
 }
 
-#content-area .main-area .widget-box.post .body .post-icons {
-    margin-right: 15px;
-}
-
 #content-area .main-area .widget-box.post .body .post-icons span {
     float: right;
     display: inline-block;
 }
 
-#content-area .main-area .widget-box.post .body .post-icons .fa-share {
-    width: 100%;
-}
-
-#content-area .main-area .widget-box.post .body .post-icons .fa-comment {
-    width: 100%;
-}
-
 #content-area .main-area .widget-box.post .body .post-comments {
-    background: #e0e0e0;
+    background: #e0e0e069;
     margin-left: -15px;
     margin-right: -15px;
     padding: 15px;
+    width: 851px;
 }
 
 #content-area .main-area .widget-box.post .body .post-comments .user-image {
@@ -391,6 +421,11 @@ header .search-area ul li {
     display: inline-block;
     float: left;
     width: 92%;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment span {
+    float: right;
+    display: inline-block;
 }
 
 #content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info {
@@ -443,13 +478,13 @@ header .search-area ul li {
 #content-area .main-area .widget-box.post .body .post-form .form-info input {
     width: 80%;
     border: 0 solid #fff;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 #content-area .main-area .widget-box.post .body .post-form .form-info input:focus {
     width: 80%;
     border: 0 solid #fff;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 #content-area .main-area .widget-box.post .body .post-form .form-info .icons {
