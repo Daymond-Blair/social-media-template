@@ -330,6 +330,7 @@ header .search-area ul li input {
 
 #content-area .main-area .widget-box.post .head {
   width: 100%;
+  margin-left: 4px;
 }
 
 .user-image-container {
